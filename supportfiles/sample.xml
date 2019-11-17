@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+    <class name="corelibrary.TestInitializer"></class>
+      <class name="testcases.LoginTest">
+      	<methods >
+      		<include name="login" description="This is to login to app">
+      		<parameter name="" value=""/>
+      		</include>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
